@@ -6,12 +6,19 @@ This widget displays weather forecast of the https://openweathermap.org/api webs
 
 PHP >= 7.2
 Composer
+Npm
 
 ## Installation
 
 Unzip the files into any folder and run the next commandt to install all dependences:
 
 ```composer install```
+
+Then install NPM prequired packages by executing:
+
+```npm install```
+
+You can now rename the ```.env.example``` file to ```.env``` and the application will be ready to use with the demo config.
 
 ## How to run the APP
 
@@ -37,5 +44,5 @@ This APP includes some unit and integration tests. You can run them by executing
 ## Possible improvements
 
 * Add API auth and API keys to use it with more projects.
-* Use a Vue component replacing the JS one and the widget template (was about to do it with Vue, but would be my first contact with it, so maybe not the best option for a test).
+* Use a Vue/React component replacing the JS one and the widget template.
 * Show the weather with a set of horizontally scrollable panels, each one corresponding to a range of three hours.
