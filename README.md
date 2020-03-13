@@ -41,7 +41,7 @@ This APP includes some unit and integration tests. You can run them by executing
 * Crated data transfer classes to standarize API responses, so it's easier to add more weather providers or modify the current one.
 * Used a PHP widget component which can be easily bundled into any page.
 * Made a JS Widget class which is automatically instantiated when the Widget is created.
-* Used bootstrap 4
+* Used bootstrap 4.
 
 ## Possible improvements
 
