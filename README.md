@@ -30,6 +30,8 @@ You can then access the URL http://localhost:8000/ in your local to view the ind
 
 The index page displays three widget instances. Type any city in the field labeled as **_City_** and then select the **_country_** of the city. Click the **_Submit_** button to view the results.
 
+You can find the ```preview.jpg``` image at the root of the project to check how it looks.
+
 ## Running the tests
 
 This APP includes some unit and integration tests. You can run them by executing the command ```./vendor/bin/``` in your console.
