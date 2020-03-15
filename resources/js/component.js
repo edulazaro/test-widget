@@ -1,4 +1,3 @@
-
 /**
  * Main component class
  */
@@ -26,11 +25,6 @@ export default class Component {
             if (typeof instance.mount !== "undefined") {
                 instance.mount();
             }
-
         });
     }
 }
-
-
-
-

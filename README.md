@@ -6,11 +6,10 @@ This widget displays weather forecast of the https://openweathermap.org/api webs
 
 PHP >= 7.2
 Composer
-Npm
 
 ## Installation
 
-Unzip the files into any folder and run the next commandt to install all dependences:
+Unzip the files into any folder and run the next command to install all dependences:
 
 ```composer install```
 
@@ -18,7 +17,7 @@ Then install NPM prequired packages by executing:
 
 ```npm install```
 
-You can now rename the ```.env.example``` file to ```.env``` and the application will be ready to use with the demo config.
+Now rename the ```.env.example``` file to ```.env``` and generate the Laravel key by running the command  ```php artisan key:generate```.
 
 ## How to run the APP
 

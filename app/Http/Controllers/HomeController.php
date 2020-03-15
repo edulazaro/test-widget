@@ -16,7 +16,7 @@ class HomeController extends PageController
 	 * @return View
 	 */
     public function index()
-    {					
+    {
 		return view('index');
 	}
 }

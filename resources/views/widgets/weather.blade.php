@@ -11,7 +11,7 @@ widget = new widgets.weatherWidget({
         <div class="col-md-12" >
             <div class="form-group pt-2">
                 <label for="{{ $id }}-city">City</label>
-                <input  class="form-control" id="{{ $id }}-city" name="city" maxlength="400" placeholder="Type the city name here">
+                <input type="text" class="form-control" id="{{ $id }}-city" name="city" maxlength="400" placeholder="Type the city name here">
             </div>
         </div>
         <div class="col-md-12" >
